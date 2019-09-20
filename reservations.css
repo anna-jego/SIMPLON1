@@ -1,0 +1,105 @@
+.container {
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+#contact input[type="text"], 
+#contact input[type="email"], 
+#contact input[type="tel"], 
+#contact input[type="url"], 
+#contact textarea, 
+#contact button[type="submit"] { 
+	font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+	background:#F9F9F9;
+	padding:25px;
+	margin:50px 0;
+}
+
+#contact h3 {
+	color: black;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#contact h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+
+fieldset {
+	border: medium none !imporant;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+
+<!-- barre d'acceuil -->
+
+header {
+  width: 100%;
+  
+  
+}
+
+nav {
+margin: 0;
+width: 100%;
+background-color: black;
+text-align: center;
+
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 28px;
+  font-size: 25px;
+  text-decoration: none;
+
+  
+}
+
+title {
+	font-family: 'Monoton', cursive;
+}
+
+nav :hover {
+  text-decoration: underline;
+}
+
+
+#menu{
+    margin-left: 100px;
+}
+#menu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+}
+#menu li{
+    float: left;
+    margin: auto;
+    padding: 10px;
+    background:linear-gradient(90deg;rgba(255,255,255,0) 0%,rgba(255,255,255,0.2)25%,rgba(255,255,255,0.2)75%,rgba(255,255,255,0)100%) ;
+    box-shadow: 0 0 25px rgba(0,0,0,0.1),inset 0 0 1 rgba(255,255,255,0.6);
+    text-decoration: none;
+}
+#menu li a{
+    display: block;
+    width: 140px;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 5px;
+    list-style-type: none;
+    
+    }
+    
+

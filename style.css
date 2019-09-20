@@ -1,0 +1,104 @@
+
+html, body {
+  width: 100%;
+  font-family: 'Amatic SC', cursive;
+  
+}
+
+img {
+  width: 95%;
+  border: 3px solid black;
+  border-radius: 5px;
+  margin-left: 20px;
+
+
+}
+
+p {
+  font-size: 24px;
+  font-family: 'Amatic SC', cursive;
+    
+  
+}
+.homer {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.4;
+  padding: 20px 20px !important;
+  font-family: 'Amatic SC', cursive;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+
+}
+
+header {
+  width: 100%;
+  
+  
+}
+
+nav {
+margin: 0;
+background-color: black;
+text-align: center;
+
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 28px;
+  font-size: 25px;
+  text-decoration: none;
+  
+}
+
+
+nav :hover {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+<!junior>
+
+#menu{
+    margin-left: 100px;
+}
+#menu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+}
+#menu li{
+    float: left;
+    margin: auto;
+    padding: 15px;
+    background:linear-gradient(90deg;rgba(255,255,255,0) 0%,rgba(255,255,255,0.2)25%,rgba(255,255,255,0.2)75%,rgba(255,255,255,0)100%) ;
+    box-shadow: 0 0 25px rgba(0,0,0,0.1),inset 0 0 1 rgba(255,255,255,0.6);
+    text-decoration: none;
+}
+#menu li a{
+    display: block;
+    width: 100px;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 5px;
+    list-style-type: none;
+    }
+
